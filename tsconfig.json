@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include" : ["src/**/*", "dist/two_sum.js"]
+}

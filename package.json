@@ -1,0 +1,16 @@
+{
+  "name": "leetcode",
+  "version": "0.0.1",
+  "currentProject": "two_sum",
+  "scripts": {
+    "build": "node index.js",
+    "updateProject": "node index.js $npm_config_fileName",
+    "default": "node default.js",
+    "start": "tsc --outDir dist/  ./src/two_sum.ts && node ./dist/two_sum.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2",
+    "typescript-types": "^1.0.3"
+  }
+}
